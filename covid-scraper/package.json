@@ -12,7 +12,8 @@
     "dayjs": "^1.8.20",
     "googleapis": "39",
     "lodash": "^4.17.15",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "snyk": "^1.342.2"
   },
   "keywords": [
     "HERE",
@@ -27,5 +28,10 @@
   "bugs": {
     "url": "https://github.com/heremaps/here-covid-19-tracker/issues"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
