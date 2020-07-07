@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Home page](README.md)
+* [Tacit Findings](tacit-findings.md)
+* [The Tracer](the-tracer.md)
 
