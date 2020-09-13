@@ -12,7 +12,7 @@
     "dayjs": "^1.8.20",
     "googleapis": "39",
     "lodash": "^4.17.15",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "snyk": "^1.342.2"
   },
   "keywords": [
