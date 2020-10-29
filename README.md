@@ -1,8 +1,8 @@
 ---
-description: Public Nuisance City Game
+description: Will Power and Gratifications
 ---
 
-# Home page
+# Home page of Public Nuisance City Game
 
 {% api-method method="get" host="https://api.publicnuisancecitygame.com" path="/v1/games/:user\_id" %}
 {% api-method-summary %}
