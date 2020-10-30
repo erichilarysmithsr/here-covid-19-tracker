@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "com.unity.ide.rider": "1.1.4",
+    "com.unity.testtools.codecoverage": "0.2.3-preview",
+    "com.unity.ugui": "1.0.0",
+    "com.unity.ui.builder": "0.8.2-preview",
+    "io.improbable.gdk.buildsystem": "file:io.improbable.gdk.buildsystem",
+    "io.improbable.gdk.core": "file:io.improbable.gdk.core",
+    "io.improbable.gdk.deploymentlauncher": "file:io.improbable.gdk.deploymentlauncher",
+    "io.improbable.gdk.gameobjectcreation": "file:io.improbable.gdk.gameobjectcreation",
+    "io.improbable.gdk.mobile": "file:io.improbable.gdk.mobile",
+    "io.improbable.gdk.playerlifecycle": "file:io.improbable.gdk.playerlifecycle",
+    "io.improbable.gdk.querybasedinteresthelper": "file:io.improbable.gdk.querybasedinteresthelper",
+    "io.improbable.gdk.testutils": "file:io.improbable.gdk.testutils",
+    "io.improbable.gdk.tools": "file:io.improbable.gdk.tools",
+    "io.improbable.gdk.transformsynchronization": "file:io.improbable.gdk.transformsynchronization",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.assetbundle": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "registry": "https://packages.unity.com"
+}
