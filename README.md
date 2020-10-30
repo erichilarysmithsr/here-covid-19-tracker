@@ -22,6 +22,22 @@ Games
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
+{% api-method-parameter name="COSINE MUD Box" type="object" required=true %}
+Games
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="GameJolt.io" type="object" required=true %}
+Games
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Mod.io" type="object" required=true %}
+Games
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="Unity3D" type="object" required=true %}
+Games
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="Authentication" type="string" required=false %}
 Authentication token to track users on Game Jolt.
 {% endapi-method-parameter %}
@@ -37,7 +53,7 @@ The API will do its best to find a user matching the provided by the game.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+HTTP URL Request successfully retrieved from COSINE MUD Box
 {% endapi-method-response-example-description %}
 
 ```
