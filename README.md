@@ -63,7 +63,7 @@ HTTP URL Request successfully retrieved from COSINE MUD Box
 
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
-Could not find matching object for this query on HTTP URL Requests
+Could not find matching game object for this query on HTTP URL Path
 {% endapi-method-response-example-description %}
 
 ```
