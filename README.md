@@ -4,9 +4,9 @@ description: Will Power and Gratifications
 
 # Home page of Public Nuisance City Game
 
-{% api-method method="get" host="https://api.publicnuisancecitygame.com" path="/v1/games/:user\_id" %}
+{% api-method method="get" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:place\_id" %}
 {% api-method-summary %}
-Get Public Nuisance City Game
+Get PlayableLocations
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -16,14 +16,14 @@ This endpoint allows you to get Public Nuisance City Game.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="id" type="object" %}
-Games
+{% api-method-parameter name="place\_id" type="object" %}
+type
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="COSINE MUD Box" type="object" required=true %}
-Games
+{% api-method-parameter name="Realm" type="object" required=true %}
+TacitFindings
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="GameJolt.io" type="object" required=true %}
@@ -39,7 +39,7 @@ Games
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Authentication" type="string" required=false %}
-Authentication token to track users on Game Jolt.
+TokenBearer COSINE Game Forum
 {% endapi-method-parameter %}
 {% endapi-method-headers %}
 
