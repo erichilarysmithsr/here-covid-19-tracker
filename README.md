@@ -6,7 +6,7 @@ description: Will Power and Gratifications Saga
 
 {% api-method method="get" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:place\_id" %}
 {% api-method-summary %}
-Get PlayableLocations
+Get Google Map PlayableLocations
 {% endapi-method-summary %}
 
 {% api-method-description %}
