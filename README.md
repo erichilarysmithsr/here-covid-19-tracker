@@ -81,21 +81,21 @@ The API will do its best to find a user matching the provided by the game.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-HTTP URL Request successfully retrieved from COSINE MUD Box
+HTTP URL Request successfully retrieved from COSINE Game Forum
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Public Nuisance City Game",    "game": "Public Nuisance City Game",    "user_id": "HTTP URL"}
+{    "name": "Public Nuisance City Game",    "PlayableLocations": "Type",    "place_id": "location"}
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
-Could not find matching game object for this query on HTTP URL Path
+Could not find matching game object integer for this query on the HTTP URL Path
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "no user_id."}
+{    "message": "no place_id"}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
