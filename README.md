@@ -17,6 +17,10 @@ This endpoint allows you to get Public Nuisance City Game.
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="place\_id" type="string" required=false %}
+Wrigleyville
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="place\_id" type="string" required=false %}
 ChicagoIllinois
 {% endapi-method-parameter %}
 
