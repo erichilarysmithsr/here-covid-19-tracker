@@ -34,7 +34,7 @@ type
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="food\_and\_drink" type="string" required=false %}
+{% api-method-parameter name="food\_and\_drink" type="integer" required=false %}
 Restaurant
 {% endapi-method-parameter %}
 
