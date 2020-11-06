@@ -16,25 +16,33 @@ This endpoint allows you to get Public Nuisance City Game.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="place\_id" type="object" %}
+{% api-method-parameter name="place\_id" type="string" required=false %}
+ChicagoIllinois
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="place\_id" type="integer" required=false %}
+WuhanChina
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="place\_id" type="integer" %}
 type
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Realm" type="string" required=false %}
+{% api-method-parameter name="Realm" type="integer" required=false %}
 Road2ArcheanOcean
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="GameServerRealm" type="object" required=true %}
+{% api-method-parameter name="GameServerRealm" type="integer" required=true %}
 PentosePhosphateFreewayGeneMap
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="PlayableLocations" type="object" required=true %}
+{% api-method-parameter name="PlayableLocations" type="integer" required=true %}
 TTL
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="Realm" type="object" required=true %}
+{% api-method-parameter name="Realm" type="integer" required=true %}
 PublicNuisanceCity
 {% endapi-method-parameter %}
 
