@@ -35,6 +35,10 @@ type
 
 {% api-method-headers %}
 {% api-method-parameter name="food\_and\_drink" type="integer" required=false %}
+WuhanSeafoodMarket
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="food\_and\_drink" type="integer" required=false %}
 Restaurant
 {% endapi-method-parameter %}
 
