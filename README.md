@@ -22,6 +22,10 @@ type
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
+{% api-method-parameter name="Realm" type="string" required=false %}
+Road2ArcheanOcean
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="GameServerRealm" type="object" required=true %}
 PentosePhosphateFreewayGeneMap
 {% endapi-method-parameter %}
