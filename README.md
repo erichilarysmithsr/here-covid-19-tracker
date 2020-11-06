@@ -34,6 +34,14 @@ type
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
+{% api-method-parameter name="food\_and\_drink" type="string" required=false %}
+Restaurant
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="food\_and\_drink" type="integer" required=false %}
+waffles
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="Realm" type="integer" required=false %}
 Road2ArcheanOcean
 {% endapi-method-parameter %}
