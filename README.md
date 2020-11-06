@@ -4,9 +4,9 @@ description: Will Power and Gratifications Saga
 
 # Home of Public Nuisance City Game API
 
-{% api-method method="post" host="" path="" %}
+{% api-method method="post" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:place\_id" %}
 {% api-method-summary %}
-
+Google Map PlayableLocations
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -42,7 +42,7 @@ Google Map PlayableLocations
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get Public Nuisance City Game.
+This endpoint allows you to get Playable Locations for Google Map SDK for Unity
 {% endapi-method-description %}
 
 {% api-method-spec %}
