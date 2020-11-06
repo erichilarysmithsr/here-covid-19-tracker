@@ -22,20 +22,16 @@ type
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
-{% api-method-parameter name="Realm" type="object" required=true %}
-TacitFindings
-{% endapi-method-parameter %}
-
 {% api-method-parameter name="GameServerRealm" type="object" required=true %}
 PentosePhosphateFreewayGeneMap
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="Mod.io" type="object" required=true %}
-Games
+{% api-method-parameter name="PlayableLocations" type="object" required=true %}
+TTL
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="Unity3D" type="object" required=true %}
-Games
+{% api-method-parameter name="Realm" type="object" required=true %}
+PublicNuisanceCity
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Authentication" type="string" required=false %}
