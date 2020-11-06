@@ -1,8 +1,8 @@
 ---
-description: Will Power and Gratifications
+description: Will Power and Gratifications Saga
 ---
 
-# Home page of Public Nuisance City Game
+# Home of Public Nuisance City Game API
 
 {% api-method method="get" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:place\_id" %}
 {% api-method-summary %}
@@ -26,8 +26,8 @@ type
 TacitFindings
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="GameJolt.io" type="object" required=true %}
-Games
+{% api-method-parameter name="GameServerRealm" type="object" required=true %}
+PentosePhosphateFreewayGeneMap
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Mod.io" type="object" required=true %}
