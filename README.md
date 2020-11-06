@@ -34,6 +34,10 @@ type
 {% endapi-method-path-parameters %}
 
 {% api-method-headers %}
+{% api-method-parameter name="Transit" type="integer" required=false %}
+PhageHexamerNanoCar2020
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="food\_and\_drink" type="integer" required=false %}
 WuhanSeafoodMarket
 {% endapi-method-parameter %}
@@ -43,7 +47,7 @@ Restaurant
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="food\_and\_drink" type="integer" required=false %}
-waffles
+WaffleHouseIndexRed
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="Realm" type="integer" required=false %}
