@@ -10,7 +10,7 @@ Google Map PlayableLocations
 {% endapi-method-summary %}
 
 {% api-method-description %}
-
+This endpoint allows you to POST Playable Locations for Google Map SDK for Unity
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -42,7 +42,7 @@ Google Map PlayableLocations
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get Playable Locations for Google Map SDK for Unity
+This endpoint allows you to GET Playable Locations for Google Map SDK for Unity
 {% endapi-method-description %}
 
 {% api-method-spec %}
