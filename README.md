@@ -4,7 +4,7 @@ description: Will Power and Gratifications Saga
 
 # Home of Public Nuisance City Game API
 
-{% api-method method="post" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:place\_id" %}
+{% api-method method="post" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:project\_id" %}
 {% api-method-summary %}
 Google Map PlayableLocations
 {% endapi-method-summary %}
@@ -36,7 +36,7 @@ This endpoint allows you to POST Playable Locations for Google Map SDK for Unity
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:place\_id" %}
+{% api-method method="get" host="https://api.publicnuisancecitygame.com" path="/v1/playablelocations/:project\_id" %}
 {% api-method-summary %}
 Google Map PlayableLocations
 {% endapi-method-summary %}
@@ -104,7 +104,7 @@ TokenBearer COSINE Game Forum
 {% endapi-method-headers %}
 
 {% api-method-query-parameters %}
-{% api-method-parameter name="Users" type="string" %}
+{% api-method-parameter name="project\_id" type="string" %}
 The API will do its best to find a user matching the provided by the game.
 {% endapi-method-parameter %}
 {% endapi-method-query-parameters %}
