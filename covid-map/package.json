@@ -44,7 +44,7 @@
     "tangram": "^0.20.0",
     "use-debounce": "^3.3.0",
     "zustand": "^2.2.2",
-    "snyk": "^1.342.2"
+    "snyk": "^1.518.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
