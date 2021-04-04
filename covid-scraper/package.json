@@ -10,7 +10,7 @@
   "dependencies": {
     "d3-dsv": "^1.2.0",
     "dayjs": "^1.8.20",
-    "googleapis": "39",
+    "googleapis": "49.0.0",
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0",
     "snyk": "^1.342.2"
